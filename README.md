@@ -5,7 +5,7 @@ A library made to communicate with League of Legends Client API with **python** 
 
 # Usage
 
-```request(method,  path,  query='',  data='')```
+```request(method,  path, data='', query='')```
 
 ##
 >  Creating Solo/Duo ranked lobby
