@@ -16,7 +16,7 @@ stopWhenMatchStarts = False
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-def request(method, path, query='', data=''):
+def request(method, path, data='', query=''):
     if not query:
         url = '%s://%s:%s%s' % (protocol, host, port, path)
     else:
