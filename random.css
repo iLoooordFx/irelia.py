@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Orbitron&display=swap');
 
 :root {
- 	 --white:
-	--white-gradient:
+     --red:
+    --red-gradient:
 }
 
 .parties-view
 {
-    background: url(https://pbs.twimg.com/media/D-ZbzhDXkAEpkZm.jpg) !important;
+    background: url(https://cdn.discordapp.com/attachments/775358262630416424/842686189429063690/Untitled-3.png) !important;
 }
 .parties-view .parties-background {
     opacity:0;
 }
 .collections-application{
-    background: url(https://pbs.twimg.com/media/D-ZbzhDXkAEpkZm.jpg) !important;
+    background: url(https://media.discordapp.net/attachments/775358262630416424/842686189429063690/Untitled-3.png?width=1202&height=676) !important;
 }
 
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
@@ -28,7 +28,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 1280px;
     height: 720px;
     position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid rgba(255, 0, 0, 0.5) !important;
     box-sizing: border-box;
     overflow: hidden;
     background: #000;
@@ -45,13 +45,13 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     position: relative;
     display: flex;
     flex-direction: column;
-    color: #00000008;
+    color: #ff000008;
     font-size: 12px;
     cursor: default;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-    background-color:transparent !important;
-    background:url('https://pbs.twimg.com/media/D-ZbzhDXkAEpkZm.jpg')!important;
+    background-color:#ff000000 !important;
+    background:url('https://cdn.discordapp.com/attachments/775358262630416424/842692604730802186/bar.png')!important;
     box-shadow: inset 0px 0px 150px  rgba(255, 255, 255, 0.2) ;        
     border-radius:20px 20px 0px 0px;
 }
@@ -136,13 +136,13 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     bottom: 0;
 }
 
+
 .loot-backdrop {
     position: absolute;
     width: 1055px;
     height: 718px;
     overflow: hidden;
-    background: url(https://de4-dev.github.io/Cavetheme.jpg) !important;
-    
+    filter: hue-rotate(170deg);
 }
 
 .game-type-card .parties-game-type-upper-half {
@@ -168,7 +168,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     height: 100%;
     pointer-events: none;
     -webkit-user-select: none;
-    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0px 0px 40px rgba(255, 0, 0, 0.2);
 }
 
 .basic-button .play-button-frame {
@@ -333,8 +333,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     cursor: default;
     
     background: rgba(255, 255, 255, 0.10);
-    box-shadow 0 5px 45px rgba(0,0,0,0.5);
-    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow 0 5px 45px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius:5px;    
     transition: 0.5s;
     }
@@ -487,20 +487,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 
 
-
-
-
-
-.loot-backdrop .lol-uikit-video-content{
-    background: url(https://de4-dev.github.io/Cavetheme.jpg) !important;    
-    display: block;   
-    box-sizing: border-box;
-    width: 180px; 
-    height: 236px; 
-    padding-left: 180px; 
-}
-
-
 lol-social-roster-member {
     cursor: pointer;
     position: relative;
@@ -559,4 +545,188 @@ lol-social-roster-member .party-join-button {
     font-size:17px!important;
     text-shadow:2px 2px black!important;
         
+}
+
+
+
+
+:host .parties-status-card-header .parties-status-card-header-text {
+  font-family: var(--font-display);
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  -webkit-user-select: none;
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  font-kerning: normal;
+  -webkit-font-feature-settings: "kern" 1;
+  -webkit-font-smoothing: antialiased;
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  text-transform: uppercase;
+}
+:host .parties-status-card-header .parties-status-card-header-text:lang(ko-kr),
+:host .parties-status-card-header .parties-status-card-header-text:lang(ja-jp),
+:host .parties-status-card-header .parties-status-card-header-text:lang(tr-tr),
+:host .parties-status-card-header .parties-status-card-header-text:lang(el-gr),
+:host .parties-status-card-header .parties-status-card-header-text:lang(th-th),
+:host .parties-status-card-header .parties-status-card-header-text:lang(zh-tw) {
+  text-transform: none;
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  color: #f0e6d2;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+}
+:host .parties-status-card-header .parties-status-card-header-text:lang(ja-jp) {
+  font-size: 13px;
+}
+:host .parties-status-card-header .parties-status-card-header-text:lang(ar-ae) {
+  letter-spacing: 0;
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  font-family: var(--font-display);
+}
+:host .parties-status-card-body .parties-status-card-map {
+  width: 34px;
+  height: 32px;
+  background-size: auto 64px;
+  background-repeat: no-repeat;
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_howling_abyss {
+  background-image: url(/fe/lol-parties/map_ha.png);
+  filter: hue-rotate(170deg);
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_summoners_rift {
+  background-image: url(/fe/lol-parties/map_sr.png);
+  filter: hue-rotate(170deg);
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_twisted_treeline {
+  background-image: url(/fe/lol-parties/map_tt.png);
+  filter: hue-rotate(170deg);
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_rotating_game_mode {
+  background-image: url(https://media.tenor.com/images/a68ad287b5afa6ed7a6087e2ee586b4e/tenor.gif);
+  filter: hue-rotate(170deg);
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_21 {
+  background-image: url(/fe/lol-parties/map_21.png);
+  filter: hue-rotate(170deg);
+}
+:host .parties-status-card-body .parties-status-card-map.game_map_22 {
+  background-image: url(/fe/lol-parties/map_tft.png);
+  filter: hue-rotate(170deg);
+}
+lol-uikit-content-block.parties-status-card-info {
+  width: 250px;
+  white-space: normal;
+}
+lol-uikit-content-block.parties-status-card-info h6 {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+lol-uikit-content-block.parties-status-card-info h6 .parties-status-card-header-text {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.parties-status-card-header-icon {
+  background-image: url(/fe/lol-parties/party_panel_header_icon.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+:host .parties-status-card {
+  position: relative;
+  cursor: pointer;
+}
+:host .parties-status-card.open {
+  background: #143c14;
+}
+:host .parties-status-card.closed {
+  background: #611919;
+}
+:host .parties-status-card .parties-status-card-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 202px;
+  color: #4bb44b;
+}
+:host .parties-status-card-hide {
+  display: none;
+}
+:host .parties-status-card-header {
+  direction: ltr;
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  position: relative;
+  align-items: center;
+  padding: 5px;
+  margin: 0 0 0 8px /*rtl:0 8px 0 0*/;
+}
+:host .parties-status-card-header .parties-status-card-header-icon {
+  background-image: url(/fe/lol-parties/party_panel_header_icon.png);
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+:host .parties-status-card-header .parties-status-card-header-text {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  color: #a09b8c;
+  padding: 0 5px 0 9px;
+  flex-grow: 1;
+  pointer-events: none;
+  margin-top: 1px;
+  text-transform: uppercase;
+}
+:host .parties-status-card-header .parties-status-card-header-info {
+  flex-grow: 0;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  visibility: hidden;
+}
+:host .parties-status-card-body {
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: -4px;
+  padding: 0 5px 10px 10px /*rtl:0 10px 10px 5px*/;
+}
+:host .parties-status-card-body .parties-status-card-map {
+  margin: 7px 10px 0 0 /*rtl:7px 0 0 10px*/;
+}
+:host .parties-status-card-body .parties-status-member-icons {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 6px /*rtl:0 6px 0 0*/;
+}
+:host .parties-status-card-body .parties-status-member-icons .parties-status-member-empty {
+  width: 34px;
+  height: 34px;
+  margin: 0 0 0 -16px /*rtl:0 -16px 0 0*/;
+  background-image: url(/fe/lol-parties/player_empty.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+:host .parties-status-card-body .parties-status-member-icons .parties-status-member-joined {
+  width: 34px;
+  height: 34px;
+  margin: 0 0 0 -16px /*rtl:0 -16px 0 0*/;
+  background-image: url(/fe/lol-parties/player_joined.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
 }
